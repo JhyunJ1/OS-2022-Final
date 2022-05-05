@@ -1,4 +1,4 @@
-# JhyunJ1.github.io
+# Mid-Term-Project
 
 내 소개
 일상
