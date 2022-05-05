@@ -1,6 +1,7 @@
 
 * {
     font-family: 'Inconsolata', monospace;
+    font-family: 'Gowun Dodum', sans-serif;
     list-style: none;
     text-decoration: none;
     border-collapse: collapse;
@@ -15,7 +16,7 @@ h1 {
 
 .home {
     
-    background-image:url("./images/intro4.jpg");
+    background-image:url("../images/intro4.jpg");
     width:100%;
     height:900px;
     background-image:no-repeat;
@@ -37,12 +38,9 @@ h1 {
 }
 
 .nav > li{
-
     margin-top: 5%;
     margin-left: 80%;
     font-size: x-large;
-    
-    
 }
 
 .home_t {
@@ -79,33 +77,44 @@ h1 {
 
 .contents1 {
     font-size: 24px;
+    color:rgb(255, 255, 255);
 }
 
 .contents2 {
     font-size: 30px;
+    color: black;
 }
+
+.contents3 {
+    font-size: 24px;
+    color: rgb(186, 145, 224);
+}
+
+
 
 .info {
     position: relative;
-    top: -70px;
+    top: -90px;
     width: 1280px;
     display: flex;
-    background-color: rgba(250, 250, 250, 0.986);
+    background-color: rgb(247, 247, 247);
     margin: auto;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.178);
+    
+    
 }
 .info > li {
     flex : 1;
-    height: 120px;
-   
+    height: 190px;
 }
 
-.info>li>div {
+.info>li>.list {
     text-align: center;
-    height: 57px;
-
+    margin-top: 50px;
+    height: 100px;
 }
 
-.info > li:not(:last-child) >div{
+.info > li:not(:last-child) >.list{
     border-right: 1px solid rgb(168, 168, 168);
 }
 
