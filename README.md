@@ -1,4 +1,4 @@
-# Mid-Term-Project
+# OS-Final2022
 
 내 소개
 일상
